@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using NPOI;
 using NPOI.OpenXmlFormats.Dml;
 using NPOI.SS.UserModel;
@@ -17,24 +18,33 @@ public class ExcelController : ControllerBase
     public ExcelController(ILogger<ExcelController> logger)
     {
         _logger = logger;
+
     }
 
+
     [HttpGet("GetFile/{name}")]
-    public XSSFWorkbook? GetFile(string name)
+    public async Task<ActionResult> GetFile(string name)
     {
         string filePath = Path.Combine(rootPath, name);
+
         if (!Path.Exists(filePath)){
-            return null;
+            return BadRequest("No file");
         }
+
         var workbook = new XSSFWorkbook();
         var CSVFiles = Directory.EnumerateFiles(filePath);
         foreach(var file in CSVFiles){
+            if (!file.Contains(".csv"))
+                continue;
             var sheet = workbook.CreateSheet();
             ParseCSVToSheet(file, sheet);
         }
-        
-        return null;//kako da vratimo xlsx?
-        
+        string fullPath = Path.Combine(filePath, $"{name}.xlsx");
+        using (var ms = new MemoryStream()){
+            workbook.Write(ms);
+            return File(ms.ToArray(), "application/octet-stream", $"{name}.xlsx");
+        }
+
     }
 
     void ParseCSVToSheet(string file, ISheet sheet){
@@ -53,10 +63,8 @@ public class ExcelController : ControllerBase
             float fvalue;
             bool bvalue;
             ICell cell;
-            List<int> columnWidths = new List<int>(tokens.Length);
+            List<int> columnWidths = new List<int>(capacity: tokens.Length);
             
-
-            csvRow = cs.ReadLine();
             tokens = csvRow!.Split(',');
             foreach(var token in tokens)
             {
@@ -72,7 +80,7 @@ public class ExcelController : ControllerBase
                 var row = sheet.CreateRow(sheet.PhysicalNumberOfRows);
                 col = 0;
                 foreach(var token in tokens )
-                { 
+                {
                     if(int.TryParse(token, out ivalue)){
                         type = CellType.Numeric;
                         cell = row.CreateCell(col, type);
