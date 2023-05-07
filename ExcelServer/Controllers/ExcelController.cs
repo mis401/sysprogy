@@ -36,7 +36,7 @@ public class ExcelController : ControllerBase
         sw.Restart();
         var cacheResult = GetMemoryStream(name);
         if (cacheResult != null) {
-            Console.WriteLine($"Proteklo je {sw.ElapsedMilliseconds}ms sa cache hitom");
+            Console.WriteLine($"Proteklo je {sw.ElapsedMilliseconds}ms, {sw.ElapsedTicks} tikova, sa cache hitom");
             return File(cacheResult.ToArray(), "application/octet-stream", $"{name}.xlsx");
         }
         string filePath = Path.Combine(rootPath, name);
@@ -57,12 +57,6 @@ public class ExcelController : ControllerBase
         }
         string fullPath = Path.Combine(filePath, $"{name}.xlsx");
         b.SignalAndWait();
-        // using (var ms = new MemoryStream()){
-        //     workbook.Write(ms);
-        //     Console.WriteLine($"Multi thread funkcija je trajala: {sw.ElapsedMilliseconds}ms");
-        //     sw.Stop();
-        //     return File(ms.ToArray(), "application/octet-stream", $"{name}.xlsx");
-        // }
         var ms = new MemoryStream();
         workbook.Write(ms);
         var res = GetOrAddIntoCache(name, ms);
@@ -104,7 +98,6 @@ public class ExcelController : ControllerBase
         var file = args![0] as string;
         var sheet = args[1] as ISheet;
         var b = args[2] as Barrier;
-        //Console.WriteLine($"Thread {Thread.CurrentThread.Name = file} has file {file} and sheet {sheet.SheetName}");
         try{
         using (var cs = new StreamReader($"{file}"))
         {
@@ -189,15 +182,13 @@ public class ExcelController : ControllerBase
             }
             for (int i = 0; i < col; i++)
             {
-                if(sheet.GetRow(2).GetCell(i).CellType != CellType.Numeric)
-                    sheet.SetColumnWidth(i, columnWidths[i]*256);
+                    sheet.SetColumnWidth(i, (columnWidths[i]+1)*256);
             }
         }
         }
         catch(Exception e){
             Console.WriteLine(e.InnerException);
         }
-        Console.WriteLine($"Thread {Thread.CurrentThread.Name} from file {file} has finished");
         b.SignalAndWait();
     }
     void ParseCSVToSheet(string file, ISheet sheet){
@@ -265,8 +256,7 @@ public class ExcelController : ControllerBase
             }
             for (int i = 0; i < col; i++)
             {
-                //if(sheet.GetRow(2).GetCell(i).CellType != CellType.Numeric)
-                    sheet.SetColumnWidth(i, columnWidths[i]*256);
+                    sheet.SetColumnWidth(i, (columnWidths[i]+1)*256);
             }
         }
         
