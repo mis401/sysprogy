@@ -31,7 +31,6 @@ public class ExcelController : ControllerBase
  [HttpGet("GetFileMT/{name}")]
     public async Task<ActionResult> GetFileMT(string name)
     {
-
         System.Diagnostics.Stopwatch sw = new();
         sw.Restart();
         var cacheResult = GetMemoryStream(name);
@@ -67,6 +66,9 @@ public class ExcelController : ControllerBase
     [HttpGet("GetFileST/{name}")]
     public async Task<ActionResult> GetFileST(string name)
     {
+
+        
+
         System.Diagnostics.Stopwatch sw = new();
         sw.Restart();
         string filePath = Path.Combine(rootPath, name);
