@@ -11,11 +11,19 @@ public class Program
     {
         string path = Path.GetFullPath($"{System.AppDomain.CurrentDomain.BaseDirectory}\\..\\..\\..\\..");
         HttpClient client = new HttpClient();
-        client.BaseAddress = new Uri(@"http://localhost:5208");
-        var response = await client.GetAsync($"http://localhost:5208/Excel/GetFileMT/employees");
+        Console.WriteLine("Unesite port");
+        ushort port = ushort.Parse(Console.ReadLine());
+        client.BaseAddress = new Uri($"http://localhost:{port}");
+        string file = null;
+        while (file == null)
+        { 
+            Console.WriteLine("Unesite ime fajla");
+            file = Console.ReadLine();
+        }
+        var response = await client.GetAsync($"{client.BaseAddress}/?file={file}"); ;
         Console.WriteLine(response);
         var bytes = await response.Content.ReadAsByteArrayAsync();
-        using (var fs = new FileStream($"{path}\\httptest.xlsx", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+        using (var fs = new FileStream($"{path}\\{response.Content.Headers.ContentDisposition.FileName}", FileMode.OpenOrCreate, FileAccess.ReadWrite))
         {
             fs.Write(bytes);
         }
