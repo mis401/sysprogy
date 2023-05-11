@@ -22,7 +22,6 @@ public class Program
             catch (FormatException e) {
                 Console.WriteLine(e.Message + '\n');
         }
-            Console.WriteLine("Unesi validan port"); }
         client.BaseAddress = new Uri($"http://localhost:{port}");
         string file = String.Empty;
         while (file == String.Empty)
