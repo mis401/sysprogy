@@ -45,7 +45,7 @@ public class Server
         else
         {
             var fileName = req.QueryString["file"];
-            if (fileName == null)
+            if (fileName == null || fileName == String.Empty)
             {
                 SendBadRequest(context, "Los query, koristi .../?file=<ime_fajla>");
                 return;
@@ -53,7 +53,7 @@ public class Server
             string filePath = Path.Combine(rootPath, fileName);
             if (!Directory.Exists(filePath))
             {
-                SendBadRequest(context, "Ne postoji takav fajl");
+                SendBadRequest(context, $"Ne postoji fajl {fileName}");
                 return;
             }
             System.Diagnostics.Stopwatch sw = new();
@@ -84,7 +84,7 @@ public class Server
             context.Response.ContentLength64 = ms.ToArray().Length;
             context.Response.StatusCode = 201;
             context.Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
-            context.Response.AddHeader("Content-Disposition", $"attachment; filename=\"{fileName}.xlsx");
+            context.Response.AddHeader("Content-Disposition", $"attachment; filename={fileName}.xlsx");
             context.Response.OutputStream.Write(ms.ToArray());
             context.Response.Close();
         }
