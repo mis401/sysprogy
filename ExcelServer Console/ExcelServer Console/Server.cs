@@ -189,17 +189,16 @@ public class Server
 
     private MemoryStream? GetMemoryStream(string name)
     {
-        var ms = Cache!.Get(name);
-        if (ms == null)
-            return null;
-        return ms as MemoryStream;
+
+        MemoryStream? ms = Cache!.Get(name) as MemoryStream;
+        return ms;
 
     }
     private void PostEviction
     (object _state)
     {
         var state = _state as CacheEntryRemovedArguments;
-        var item = state.CacheItem;
+        var item = state!.CacheItem;
         var stream = item.Value as MemoryStream;
         stream!.Dispose();
         Console.WriteLine($"Obrisan je fajl {item.Key} iz kesa");

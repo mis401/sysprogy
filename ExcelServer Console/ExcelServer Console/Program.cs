@@ -20,8 +20,19 @@ public class Program
         server.listener.Start();
         while (true)
         {
-            HttpListenerContext _context = server.listener.GetContext();
-            ThreadPool.QueueUserWorkItem(server.GetFile, _context as object);
+            try
+            {
+                HttpListenerContext _context = server.listener.GetContext();
+                ThreadPool.QueueUserWorkItem(server.GetFile, _context as object);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine(ex.InnerException.Message);
+                }
+            }
         }
     }
 

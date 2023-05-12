@@ -13,19 +13,21 @@ public class Program
         HttpClient client = new HttpClient();
         Console.WriteLine("Unesite port");
         ushort port = 0;
-        while(port == 0)
+        while (port == 0)
         {
             try
             {
                 port = ushort.Parse(Console.ReadLine()!);
             }
-            catch (FormatException e) {
-                Console.WriteLine(e.Message + '\n');
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
         client.BaseAddress = new Uri($"http://localhost:{port}");
         string file = String.Empty;
         while (file == String.Empty)
-        { 
+        {
             Console.WriteLine("Unesite ime fajla");
             file = Console.ReadLine()!;
         }
@@ -37,7 +39,7 @@ public class Program
         }
         Console.WriteLine(response);
         var bytes = await response.Content.ReadAsByteArrayAsync();
-        using (var fs = new FileStream($"{path}\\{response.Content.Headers.ContentDisposition.FileName}", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+        using (var fs = new FileStream($"{path}\\{response.Content.Headers.ContentDisposition!.FileName}", FileMode.OpenOrCreate, FileAccess.ReadWrite))
         {
             fs.Write(bytes);
         }
