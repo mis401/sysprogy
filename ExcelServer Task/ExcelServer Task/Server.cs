@@ -1,4 +1,5 @@
-﻿using NPOI.SS.UserModel;
+﻿using Microsoft.VisualBasic;
+using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,11 @@ public class Server
 
     public string BaseURL { get; }
 
+
     public HttpListener listener { get; }
 
     private MemoryCache Cache { get; }
+    private object cacheLock = new object();
     private const string rootPath = "..\\..\\..\\files";
     public Server(ushort serverPort, string serverName, string baseURL)
     {
@@ -29,6 +32,7 @@ public class Server
         listener = new HttpListener();
         listener.Prefixes.Add($"{BaseURL}:{ServerPort}/");
         Cache = new MemoryCache("cache");
+        
     }
 
 
@@ -183,14 +187,20 @@ public class Server
         var options = new CacheItemPolicy();
         options.AbsoluteExpiration = DateTimeOffset.Now.AddSeconds(10);
         options.RemovedCallback = PostEviction;
-        Cache.Add(name, ms, options);
+        lock (cacheLock)
+        {
+            Cache.AddOrGetExisting(name, ms, options);
+        }
         return value;
     }
 
     private MemoryStream? GetMemoryStream(string name)
     {
-        MemoryStream? ms = Cache!.Get(name) as MemoryStream;
-        return ms;
+        lock (cacheLock)
+        {
+            MemoryStream? ms = Cache!.Get(name) as MemoryStream;
+            return ms;
+        }
     }
     private void PostEviction
     (object _state)
