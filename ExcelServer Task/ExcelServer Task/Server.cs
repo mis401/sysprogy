@@ -43,7 +43,7 @@ public class Server
         HttpListenerRequest req = context!.Request;
         if (!req.HttpMethod.ToUpper().Equals("GET"))
         {
-            SendBadRequest(context, "Not GET");
+            SendBadRequest(context, "Not GET", 400);
             return;
         }
         else
@@ -57,7 +57,7 @@ public class Server
             string filePath = Path.Combine(rootPath, fileName);
             if (!Directory.Exists(filePath))
             {
-                SendBadRequest(context, $"Ne postoji fajl {fileName}");
+                SendBadRequest(context, $"Ne postoji fajl {fileName}, 404");
                 return;
             }
             System.Diagnostics.Stopwatch sw = new();
@@ -167,13 +167,13 @@ public class Server
 
     }
 
-    private void SendBadRequest(HttpListenerContext context, string msg)
+    private void SendBadRequest(HttpListenerContext context, string msg, int code = 400)
     {
         string badRequest = msg;
         Console.WriteLine(msg);
         byte[] BadRequest = Encoding.UTF8.GetBytes(badRequest);
         context.Response.ContentLength64 = BadRequest.Length;
-        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+        context.Response.StatusCode = code;
         context.Response.ContentType = "text/plain";
         context.Response.OutputStream.Write(BadRequest);
         context.Response.OutputStream.Close();
