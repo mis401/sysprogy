@@ -1,0 +1,1001 @@
+id,job,salary
+1,Software Consultant,$31113.56
+2,Health Coach IV,$39055.42
+3,Structural Engineer,$11434.53
+4,Computer Systems Analyst II,$12778.45
+5,Graphic Designer,$40626.02
+6,Graphic Designer,$9071.11
+7,Human Resources Manager,$33407.50
+8,Geological Engineer,$40929.10
+9,Staff Accountant IV,$33905.47
+10,Sales Representative,$44424.60
+11,Legal Assistant,$42196.09
+12,Assistant Professor,$37689.30
+13,Health Coach IV,$34090.33
+14,Legal Assistant,$13261.39
+15,VP Accounting,$6561.94
+16,Dental Hygienist,$40531.98
+17,Internal Auditor,$45944.81
+18,Pharmacist,$15203.21
+19,Marketing Manager,$9408.77
+20,Programmer II,$37034.67
+21,Food Chemist,$13077.79
+22,Chief Design Engineer,$6752.14
+23,GIS Technical Architect,$14763.79
+24,Statistician II,$13843.91
+25,Actuary,$28362.86
+26,Nurse,$35308.42
+27,Software Consultant,$22034.06
+28,Nurse,$13932.41
+29,Clinical Specialist,$27446.13
+30,Office Assistant III,$4946.08
+31,Business Systems Development Analyst,$37046.76
+32,Senior Cost Accountant,$48396.07
+33,Programmer Analyst III,$17557.14
+34,Senior Cost Accountant,$30302.02
+35,Cost Accountant,$7562.88
+36,Analyst Programmer,$11867.31
+37,Geologist IV,$19865.53
+38,Administrative Assistant IV,$47415.53
+39,Sales Associate,$27974.13
+40,Account Executive,$20198.27
+41,Web Developer IV,$29355.16
+42,Actuary,$19341.16
+43,Staff Accountant III,$12624.22
+44,Budget/Accounting Analyst II,$34866.51
+45,Paralegal,$10254.95
+46,Sales Representative,$14408.06
+47,Physical Therapy Assistant,$40181.48
+48,Structural Analysis Engineer,$40188.70
+49,Analog Circuit Design manager,$32047.36
+50,Director of Sales,$17489.88
+51,Associate Professor,$48575.17
+52,Biostatistician IV,$13834.70
+53,Nurse,$31512.48
+54,Graphic Designer,$45929.23
+55,Administrative Assistant I,$24283.18
+56,Payment Adjustment Coordinator,$3408.80
+57,Desktop Support Technician,$3145.96
+58,Structural Analysis Engineer,$21801.93
+59,Chief Design Engineer,$44068.52
+60,Legal Assistant,$49340.89
+61,VP Marketing,$6663.11
+62,Sales Associate,$2169.45
+63,Structural Analysis Engineer,$38173.31
+64,Nurse,$25895.00
+65,Design Engineer,$20478.84
+66,Help Desk Technician,$32158.50
+67,Junior Executive,$45861.80
+68,Marketing Manager,$21053.31
+69,Cost Accountant,$27025.96
+70,Health Coach I,$6683.95
+71,Health Coach I,$12066.01
+72,Assistant Media Planner,$25021.55
+73,Staff Accountant II,$22924.60
+74,Software Engineer I,$11197.99
+75,Speech Pathologist,$28470.62
+76,Physical Therapy Assistant,$26264.80
+77,Marketing Manager,$18474.60
+78,Marketing Manager,$12273.58
+79,Executive Secretary,$2360.09
+80,Product Engineer,$41853.40
+81,Safety Technician II,$26293.77
+82,Software Engineer IV,$22077.34
+83,Food Chemist,$31987.51
+84,Recruiting Manager,$34814.54
+85,Nurse Practicioner,$48293.15
+86,Environmental Tech,$38298.91
+87,Developer I,$41711.69
+88,Assistant Professor,$47650.91
+89,Senior Cost Accountant,$3734.97
+90,Programmer I,$49637.88
+91,Physical Therapy Assistant,$1306.37
+92,Assistant Manager,$6877.93
+93,Sales Representative,$36671.68
+94,Project Manager,$1179.75
+95,Geological Engineer,$19436.03
+96,Staff Scientist,$10214.29
+97,Research Assistant I,$16746.28
+98,Sales Representative,$34495.19
+99,Dental Hygienist,$43358.98
+100,VP Accounting,$25339.37
+101,Operator,$49602.60
+102,Analog Circuit Design manager,$45213.16
+103,Clinical Specialist,$27106.42
+104,Human Resources Manager,$5093.00
+105,Research Nurse,$32548.47
+106,Marketing Assistant,$46585.51
+107,Research Nurse,$34579.55
+108,Quality Engineer,$22294.75
+109,Engineer II,$30395.42
+110,Research Associate,$29767.68
+111,Speech Pathologist,$19843.80
+112,Food Chemist,$37104.45
+113,Automation Specialist II,$20379.99
+114,Software Test Engineer I,$42072.70
+115,VP Accounting,$33808.44
+116,Staff Scientist,$44759.33
+117,Account Coordinator,$32082.78
+118,Accounting Assistant II,$22444.06
+119,Senior Cost Accountant,$29369.14
+120,Legal Assistant,$25063.41
+121,Clinical Specialist,$20462.16
+122,Director of Sales,$21111.17
+123,Compensation Analyst,$23927.86
+124,Clinical Specialist,$32354.19
+125,Structural Analysis Engineer,$25105.62
+126,Data Coordinator,$13429.36
+127,Accountant III,$41039.43
+128,Software Engineer I,$12158.72
+129,VP Product Management,$49999.15
+130,Chemical Engineer,$17095.70
+131,Teacher,$17153.84
+132,Professor,$3137.51
+133,Office Assistant II,$35254.84
+134,Help Desk Technician,$27998.54
+135,Assistant Media Planner,$14015.00
+136,Geologist IV,$20668.46
+137,Sales Associate,$48146.86
+138,Pharmacist,$22264.96
+139,Structural Engineer,$49800.95
+140,Administrative Assistant II,$29014.58
+141,Systems Administrator IV,$23649.82
+142,Staff Scientist,$27631.61
+143,Nurse Practicioner,$5038.53
+144,Senior Quality Engineer,$23755.23
+145,General Manager,$6096.05
+146,Technical Writer,$23216.21
+147,VP Sales,$24409.67
+148,Director of Sales,$39978.96
+149,Associate Professor,$25919.91
+150,Account Coordinator,$14727.34
+151,Software Consultant,$6989.06
+152,Account Executive,$48486.72
+153,Statistician I,$37578.42
+154,Account Representative III,$34579.21
+155,Financial Advisor,$17342.06
+156,Geologist II,$1547.55
+157,Accountant IV,$14689.69
+158,Social Worker,$38605.14
+159,Editor,$27236.34
+160,Compensation Analyst,$40128.13
+161,Pharmacist,$33302.88
+162,Recruiting Manager,$11255.50
+163,Graphic Designer,$33496.34
+164,VP Quality Control,$2966.84
+165,Accountant II,$48092.56
+166,Information Systems Manager,$17622.08
+167,Occupational Therapist,$41513.97
+168,Assistant Manager,$42483.75
+169,Cost Accountant,$44971.76
+170,Help Desk Operator,$7102.99
+171,VP Product Management,$3195.64
+172,Teacher,$37898.54
+173,Sales Representative,$32178.91
+174,VP Sales,$10536.99
+175,Administrative Assistant II,$2958.33
+176,Mechanical Systems Engineer,$24899.69
+177,Structural Engineer,$34360.14
+178,Chief Design Engineer,$37849.55
+179,Geologist III,$38373.04
+180,Data Coordinator,$45978.94
+181,VP Marketing,$20185.67
+182,Desktop Support Technician,$44541.59
+183,Computer Systems Analyst III,$36808.71
+184,Pharmacist,$39690.74
+185,Marketing Assistant,$6818.94
+186,Nurse,$45608.80
+187,Senior Sales Associate,$7937.90
+188,Web Developer IV,$30476.18
+189,Systems Administrator II,$11614.69
+190,Executive Secretary,$16700.53
+191,Director of Sales,$37006.22
+192,Payment Adjustment Coordinator,$23487.30
+193,Programmer Analyst II,$11549.44
+194,Pharmacist,$16204.65
+195,Programmer I,$49419.22
+196,Recruiting Manager,$44576.12
+197,Developer I,$30490.64
+198,Systems Administrator II,$22709.18
+199,Human Resources Assistant III,$1919.81
+200,Health Coach II,$31155.55
+201,Account Representative II,$49992.29
+202,Cost Accountant,$43315.78
+203,Developer IV,$19809.32
+204,Chief Design Engineer,$5260.80
+205,Information Systems Manager,$23843.97
+206,Compensation Analyst,$43703.58
+207,Office Assistant I,$19669.24
+208,Programmer II,$29932.50
+209,Editor,$5735.51
+210,Human Resources Manager,$45009.63
+211,Assistant Professor,$19087.53
+212,VP Marketing,$20992.85
+213,Human Resources Manager,$23523.83
+214,Analyst Programmer,$6449.35
+215,General Manager,$26614.38
+216,Nurse,$41206.19
+217,Software Test Engineer II,$47210.59
+218,Human Resources Manager,$36389.35
+219,Programmer III,$40308.11
+220,GIS Technical Architect,$49756.87
+221,Staff Accountant II,$21573.61
+222,Analyst Programmer,$49523.56
+223,Editor,$4165.58
+224,Mechanical Systems Engineer,$43693.29
+225,Research Nurse,$14882.91
+226,Systems Administrator III,$10096.12
+227,Software Test Engineer I,$45237.45
+228,Operator,$9094.72
+229,Community Outreach Specialist,$49298.42
+230,Social Worker,$37210.74
+231,Teacher,$49458.14
+232,Nuclear Power Engineer,$31884.33
+233,Compensation Analyst,$30342.01
+234,Technical Writer,$37816.77
+235,Tax Accountant,$45550.85
+236,Assistant Media Planner,$25526.69
+237,Project Manager,$1048.46
+238,Developer II,$6676.36
+239,Assistant Professor,$2662.32
+240,Structural Engineer,$44655.59
+241,Senior Financial Analyst,$12105.02
+242,Project Manager,$22954.54
+243,Web Developer III,$10072.29
+244,Safety Technician II,$1244.65
+245,Analog Circuit Design manager,$45830.70
+246,Sales Representative,$21953.46
+247,Civil Engineer,$6208.75
+248,Food Chemist,$25499.35
+249,Administrative Officer,$30162.53
+250,Quality Engineer,$31309.97
+251,Assistant Media Planner,$43013.83
+252,Data Coordinator,$21346.65
+253,Assistant Manager,$18609.73
+254,Developer I,$20184.19
+255,Sales Representative,$10597.32
+256,Analog Circuit Design manager,$9058.32
+257,Marketing Manager,$46349.47
+258,Senior Sales Associate,$38459.59
+259,Senior Sales Associate,$7565.30
+260,Librarian,$29027.27
+261,Research Nurse,$8161.62
+262,Editor,$19502.37
+263,Software Test Engineer III,$23458.91
+264,Tax Accountant,$14288.83
+265,Senior Financial Analyst,$1911.48
+266,Assistant Professor,$40285.84
+267,Registered Nurse,$48233.76
+268,Professor,$2699.85
+269,Social Worker,$23363.23
+270,Registered Nurse,$44683.49
+271,Web Developer I,$44246.01
+272,Senior Editor,$16635.82
+273,Marketing Manager,$12916.49
+274,Community Outreach Specialist,$44352.82
+275,Help Desk Operator,$17417.81
+276,Account Executive,$44171.73
+277,Senior Financial Analyst,$29759.60
+278,Dental Hygienist,$28680.73
+279,Environmental Specialist,$26701.56
+280,Social Worker,$14855.35
+281,Librarian,$38555.56
+282,Speech Pathologist,$44866.64
+283,Administrative Assistant III,$15266.50
+284,Software Engineer III,$12667.42
+285,Research Assistant II,$44061.51
+286,Software Consultant,$2558.35
+287,Account Executive,$49451.06
+288,Payment Adjustment Coordinator,$7286.71
+289,Statistician II,$32487.75
+290,Software Test Engineer III,$48652.53
+291,Software Engineer II,$29464.42
+292,GIS Technical Architect,$36978.92
+293,Engineer I,$22382.13
+294,Geological Engineer,$23095.48
+295,VP Sales,$28557.26
+296,Nuclear Power Engineer,$25824.81
+297,VP Quality Control,$18160.38
+298,Quality Control Specialist,$33027.88
+299,Internal Auditor,$23868.95
+300,Senior Quality Engineer,$12341.60
+301,Pharmacist,$31907.52
+302,Account Executive,$17027.66
+303,Marketing Assistant,$29450.36
+304,Senior Quality Engineer,$47036.28
+305,Electrical Engineer,$44461.33
+306,Business Systems Development Analyst,$18840.05
+307,Automation Specialist III,$40887.29
+308,Budget/Accounting Analyst IV,$10924.92
+309,Senior Quality Engineer,$26082.39
+310,Senior Financial Analyst,$13270.18
+311,Business Systems Development Analyst,$2066.44
+312,Assistant Media Planner,$14068.81
+313,Project Manager,$13695.90
+314,Internal Auditor,$1146.85
+315,Assistant Professor,$47588.00
+316,Recruiter,$31200.59
+317,Community Outreach Specialist,$14549.01
+318,Food Chemist,$14005.21
+319,Registered Nurse,$42160.19
+320,Analyst Programmer,$39021.23
+321,Environmental Specialist,$5386.88
+322,Business Systems Development Analyst,$8936.52
+323,Occupational Therapist,$13688.77
+324,Software Test Engineer IV,$14640.04
+325,Junior Executive,$40424.97
+326,Account Representative IV,$39836.26
+327,Environmental Specialist,$30706.22
+328,Marketing Manager,$22796.69
+329,Payment Adjustment Coordinator,$27505.65
+330,Senior Cost Accountant,$39003.21
+331,Human Resources Manager,$49956.54
+332,Research Associate,$47507.67
+333,Computer Systems Analyst IV,$48700.21
+334,Operator,$8195.89
+335,Food Chemist,$42083.42
+336,Computer Systems Analyst III,$35741.71
+337,Software Engineer IV,$12676.33
+338,Accounting Assistant III,$12045.06
+339,Structural Engineer,$4890.98
+340,Sales Associate,$48725.52
+341,Administrative Assistant II,$36127.25
+342,Software Engineer II,$32569.23
+343,Staff Accountant II,$37717.10
+344,Engineer II,$8102.84
+345,Structural Analysis Engineer,$39058.23
+346,Senior Financial Analyst,$30570.50
+347,Web Designer III,$2120.77
+348,Health Coach I,$19413.97
+349,Automation Specialist IV,$5376.68
+350,Physical Therapy Assistant,$17169.42
+351,Physical Therapy Assistant,$29196.88
+352,Software Test Engineer I,$26596.14
+353,Senior Developer,$18474.81
+354,Safety Technician III,$22217.73
+355,Computer Systems Analyst II,$6701.84
+356,Budget/Accounting Analyst III,$3832.94
+357,Nurse,$25332.94
+358,Sales Associate,$48408.86
+359,Software Engineer II,$16068.53
+360,Staff Scientist,$9890.96
+361,Web Developer II,$4980.06
+362,Account Coordinator,$24577.03
+363,Help Desk Technician,$28899.69
+364,Database Administrator II,$11346.50
+365,Chief Design Engineer,$12303.41
+366,Actuary,$32740.67
+367,General Manager,$25865.28
+368,Senior Cost Accountant,$26418.31
+369,Cost Accountant,$8461.13
+370,Quality Engineer,$21459.00
+371,Senior Sales Associate,$36488.97
+372,Account Representative III,$15691.61
+373,Paralegal,$1441.34
+374,Marketing Manager,$26527.92
+375,Account Coordinator,$39321.36
+376,Help Desk Technician,$21217.22
+377,Speech Pathologist,$4932.45
+378,Senior Sales Associate,$24326.03
+379,Financial Analyst,$25288.82
+380,Computer Systems Analyst II,$26956.16
+381,Social Worker,$36973.00
+382,Information Systems Manager,$14460.72
+383,Senior Cost Accountant,$24050.32
+384,Senior Developer,$47153.46
+385,Automation Specialist III,$30205.14
+386,VP Accounting,$20831.95
+387,Nurse Practicioner,$24579.58
+388,Marketing Assistant,$13932.89
+389,Compensation Analyst,$29848.60
+390,Financial Advisor,$17168.82
+391,Research Assistant I,$23633.31
+392,Data Coordinator,$19761.34
+393,Chemical Engineer,$26684.87
+394,Marketing Manager,$32136.32
+395,Information Systems Manager,$2496.40
+396,Accounting Assistant III,$32485.49
+397,Web Developer IV,$22731.03
+398,Office Assistant I,$18105.11
+399,Senior Developer,$34473.25
+400,Cost Accountant,$10441.40
+401,Tax Accountant,$5818.89
+402,Software Test Engineer II,$2529.48
+403,Recruiter,$43919.02
+404,Physical Therapy Assistant,$23833.39
+405,Sales Representative,$26794.95
+406,Marketing Assistant,$39704.07
+407,Financial Analyst,$6983.93
+408,Legal Assistant,$6041.96
+409,Compensation Analyst,$39825.33
+410,Associate Professor,$39489.68
+411,Account Coordinator,$35502.65
+412,Librarian,$32841.52
+413,Physical Therapy Assistant,$35123.18
+414,Environmental Tech,$35705.00
+415,Legal Assistant,$19328.28
+416,Assistant Professor,$9701.32
+417,VP Quality Control,$11465.43
+418,Desktop Support Technician,$1713.75
+419,Design Engineer,$47842.33
+420,Senior Editor,$23978.21
+421,Community Outreach Specialist,$18289.58
+422,Recruiter,$26647.93
+423,Nuclear Power Engineer,$38122.22
+424,Nuclear Power Engineer,$21155.28
+425,Computer Systems Analyst II,$5875.71
+426,Pharmacist,$17448.10
+427,Food Chemist,$23291.52
+428,Internal Auditor,$34720.21
+429,Actuary,$48567.49
+430,Database Administrator I,$28870.96
+431,Environmental Specialist,$24980.22
+432,Occupational Therapist,$14953.76
+433,Staff Accountant IV,$9903.21
+434,Desktop Support Technician,$49111.29
+435,Office Assistant III,$5711.96
+436,Chief Design Engineer,$24121.72
+437,Staff Scientist,$2114.63
+438,Senior Sales Associate,$43480.11
+439,Developer II,$17062.00
+440,Automation Specialist II,$30211.93
+441,Occupational Therapist,$49541.46
+442,Accountant II,$19608.55
+443,Dental Hygienist,$43635.17
+444,Automation Specialist III,$10766.12
+445,Developer III,$14762.27
+446,Physical Therapy Assistant,$13493.98
+447,Administrative Officer,$5726.55
+448,Quality Engineer,$10494.78
+449,Administrative Assistant IV,$39224.73
+450,Mechanical Systems Engineer,$35207.03
+451,VP Marketing,$47813.37
+452,Marketing Assistant,$41787.82
+453,Nuclear Power Engineer,$27326.64
+454,Help Desk Technician,$11349.72
+455,Project Manager,$38211.26
+456,Human Resources Assistant I,$8064.71
+457,Assistant Media Planner,$22596.59
+458,Budget/Accounting Analyst II,$26341.34
+459,Help Desk Operator,$42075.66
+460,Systems Administrator III,$15319.12
+461,Marketing Assistant,$27502.95
+462,Web Developer III,$24387.45
+463,Sales Associate,$46508.69
+464,GIS Technical Architect,$9558.02
+465,General Manager,$33488.87
+466,Pharmacist,$5898.06
+467,Software Consultant,$17761.90
+468,Senior Cost Accountant,$13942.29
+469,Safety Technician III,$34039.07
+470,Quality Control Specialist,$6420.32
+471,Marketing Assistant,$40035.80
+472,Recruiter,$33356.55
+473,Structural Analysis Engineer,$49763.17
+474,Clinical Specialist,$4104.70
+475,Paralegal,$5930.59
+476,Food Chemist,$41936.48
+477,Director of Sales,$17325.01
+478,Librarian,$41286.47
+479,Statistician III,$36081.61
+480,Senior Financial Analyst,$37641.28
+481,Financial Analyst,$5948.68
+482,Account Executive,$8749.22
+483,Structural Analysis Engineer,$30539.64
+484,Account Coordinator,$34113.58
+485,Community Outreach Specialist,$38027.49
+486,Data Coordinator,$22651.98
+487,Actuary,$38469.60
+488,Research Assistant I,$5616.60
+489,Health Coach IV,$35895.86
+490,Clinical Specialist,$26655.45
+491,Librarian,$17749.06
+492,Financial Analyst,$5935.77
+493,Compensation Analyst,$28932.81
+494,Speech Pathologist,$12409.38
+495,Sales Associate,$21477.01
+496,Staff Scientist,$29635.91
+497,Media Manager II,$11494.11
+498,Cost Accountant,$7661.39
+499,Marketing Manager,$36668.05
+500,Geological Engineer,$30553.18
+501,VP Quality Control,$37987.23
+502,Mechanical Systems Engineer,$48708.49
+503,Quality Engineer,$19600.44
+504,Senior Quality Engineer,$4345.47
+505,Analog Circuit Design manager,$39185.61
+506,GIS Technical Architect,$29900.11
+507,Community Outreach Specialist,$7297.42
+508,Senior Financial Analyst,$31311.84
+509,Sales Representative,$9712.21
+510,Payment Adjustment Coordinator,$22398.96
+511,Editor,$36654.51
+512,Information Systems Manager,$36242.29
+513,Recruiting Manager,$7796.29
+514,Actuary,$23193.83
+515,Safety Technician II,$44649.84
+516,Technical Writer,$45710.06
+517,Web Developer II,$26270.11
+518,Mechanical Systems Engineer,$8789.76
+519,Senior Developer,$20515.08
+520,Media Manager IV,$3678.72
+521,Nurse Practicioner,$8427.99
+522,Dental Hygienist,$3376.82
+523,Staff Scientist,$7805.51
+524,Information Systems Manager,$34316.16
+525,Programmer IV,$45747.72
+526,Data Coordinator,$13898.10
+527,Administrative Assistant III,$40321.11
+528,Computer Systems Analyst II,$28170.80
+529,Marketing Manager,$28893.28
+530,Health Coach I,$39011.91
+531,Librarian,$2049.92
+532,Social Worker,$48213.33
+533,Analyst Programmer,$22979.86
+534,Senior Developer,$47977.40
+535,Accountant IV,$8187.61
+536,Systems Administrator IV,$10973.35
+537,Computer Systems Analyst IV,$39539.84
+538,Professor,$29594.96
+539,Cost Accountant,$10549.38
+540,Desktop Support Technician,$15065.11
+541,Health Coach II,$36708.98
+542,Senior Editor,$7702.66
+543,Professor,$34450.66
+544,Clinical Specialist,$28692.01
+545,Recruiter,$33286.46
+546,Product Engineer,$6862.53
+547,Financial Analyst,$33787.03
+548,Senior Editor,$3851.63
+549,Software Engineer IV,$11355.13
+550,Data Coordinator,$35473.98
+551,Human Resources Assistant II,$26909.32
+552,Chemical Engineer,$26640.94
+553,Geologist III,$35873.06
+554,Payment Adjustment Coordinator,$42941.02
+555,Marketing Assistant,$49271.79
+556,Environmental Tech,$29849.28
+557,Marketing Manager,$39870.31
+558,VP Quality Control,$39318.82
+559,VP Quality Control,$17867.85
+560,Physical Therapy Assistant,$31275.27
+561,Software Consultant,$32449.44
+562,Operator,$42214.40
+563,Tax Accountant,$3724.33
+564,Safety Technician II,$26741.73
+565,Senior Financial Analyst,$27288.49
+566,Web Developer III,$40047.07
+567,Account Representative III,$49363.56
+568,Information Systems Manager,$14840.35
+569,Software Consultant,$35768.48
+570,Analog Circuit Design manager,$14590.56
+571,Professor,$4453.02
+572,Design Engineer,$2464.97
+573,Editor,$4150.44
+574,Recruiter,$27847.76
+575,Senior Quality Engineer,$3650.38
+576,Assistant Professor,$22516.63
+577,Professor,$16748.46
+578,Actuary,$19273.15
+579,Account Executive,$11460.33
+580,VP Quality Control,$2770.28
+581,Recruiting Manager,$7214.97
+582,Health Coach I,$42482.47
+583,Senior Developer,$39907.24
+584,Recruiter,$26586.77
+585,Structural Analysis Engineer,$9872.66
+586,Senior Financial Analyst,$19869.82
+587,Software Engineer II,$35806.31
+588,Sales Representative,$17848.60
+589,VP Accounting,$36766.62
+590,Occupational Therapist,$29155.25
+591,Staff Accountant II,$36502.03
+592,Account Representative III,$33329.43
+593,Associate Professor,$12224.90
+594,Staff Scientist,$16215.07
+595,Tax Accountant,$9926.31
+596,VP Marketing,$9092.43
+597,Software Test Engineer II,$37614.93
+598,Director of Sales,$8041.11
+599,Environmental Tech,$16184.58
+600,Chemical Engineer,$38623.41
+601,Biostatistician III,$27020.62
+602,Assistant Media Planner,$22714.29
+603,Software Consultant,$6210.11
+604,Chief Design Engineer,$6923.68
+605,Automation Specialist IV,$18060.31
+606,Database Administrator I,$6417.96
+607,Software Consultant,$7184.60
+608,Account Executive,$8355.56
+609,Media Manager II,$11622.63
+610,VP Product Management,$7756.64
+611,Engineer III,$12626.57
+612,VP Marketing,$49003.67
+613,Senior Editor,$41542.42
+614,Engineer I,$4016.08
+615,Occupational Therapist,$15002.27
+616,Internal Auditor,$12853.75
+617,Staff Scientist,$18137.26
+618,GIS Technical Architect,$45734.70
+619,Nuclear Power Engineer,$29896.34
+620,Structural Engineer,$40326.57
+621,Accountant II,$44286.87
+622,Office Assistant II,$26757.48
+623,Occupational Therapist,$21757.78
+624,Account Representative III,$37201.19
+625,Quality Control Specialist,$47092.38
+626,Recruiter,$9394.84
+627,Occupational Therapist,$7311.26
+628,Assistant Professor,$13119.03
+629,Account Representative III,$10906.66
+630,Project Manager,$23261.03
+631,Assistant Manager,$5589.60
+632,Assistant Professor,$48925.05
+633,Assistant Manager,$16609.49
+634,Computer Systems Analyst III,$22975.33
+635,Nurse Practicioner,$38695.12
+636,General Manager,$39152.63
+637,Professor,$14611.82
+638,Electrical Engineer,$38848.82
+639,Structural Analysis Engineer,$8211.21
+640,Help Desk Operator,$39178.20
+641,VP Product Management,$17082.06
+642,Dental Hygienist,$8999.10
+643,Design Engineer,$28971.64
+644,Product Engineer,$9228.46
+645,Compensation Analyst,$32352.49
+646,Assistant Professor,$45484.97
+647,Health Coach II,$49127.48
+648,VP Quality Control,$10660.44
+649,Senior Cost Accountant,$22921.70
+650,Programmer IV,$8986.10
+651,Compensation Analyst,$8147.56
+652,Statistician IV,$22484.50
+653,Research Nurse,$1637.22
+654,Nurse Practicioner,$32223.81
+655,Assistant Manager,$14825.81
+656,Desktop Support Technician,$20662.83
+657,Senior Cost Accountant,$26125.22
+658,Internal Auditor,$37653.28
+659,Accounting Assistant IV,$41704.98
+660,Software Engineer I,$6203.51
+661,Health Coach IV,$10875.24
+662,VP Accounting,$13066.36
+663,Senior Quality Engineer,$9318.93
+664,Research Assistant II,$40924.94
+665,Account Executive,$18049.28
+666,Account Executive,$15580.65
+667,Junior Executive,$6345.08
+668,Web Designer III,$5169.25
+669,Sales Associate,$11687.45
+670,Junior Executive,$7990.32
+671,Senior Developer,$9111.71
+672,Structural Analysis Engineer,$47343.03
+673,Environmental Specialist,$34963.44
+674,Health Coach III,$39315.68
+675,Research Assistant I,$38212.08
+676,Editor,$49562.31
+677,Pharmacist,$15391.71
+678,Recruiting Manager,$39987.14
+679,Geological Engineer,$31589.68
+680,Physical Therapy Assistant,$7417.11
+681,Marketing Assistant,$46512.28
+682,Software Consultant,$18240.05
+683,Teacher,$13434.15
+684,Assistant Professor,$48447.53
+685,Account Representative IV,$23799.41
+686,Web Designer III,$21002.69
+687,Internal Auditor,$18525.18
+688,VP Sales,$22643.62
+689,Structural Analysis Engineer,$23799.59
+690,Occupational Therapist,$21837.49
+691,Office Assistant II,$37676.60
+692,Food Chemist,$42307.54
+693,Statistician II,$30779.05
+694,VP Product Management,$13219.06
+695,Nurse Practicioner,$9686.99
+696,Media Manager III,$7161.09
+697,Legal Assistant,$8614.79
+698,Staff Accountant III,$25509.45
+699,Administrative Assistant II,$8240.11
+700,Programmer IV,$11374.67
+701,Budget/Accounting Analyst I,$48954.21
+702,Accounting Assistant II,$21300.35
+703,Design Engineer,$35559.67
+704,VP Accounting,$43319.62
+705,Director of Sales,$35835.50
+706,Database Administrator I,$18583.38
+707,Financial Advisor,$44728.08
+708,Web Developer II,$4866.36
+709,Structural Engineer,$37702.34
+710,Compensation Analyst,$9171.15
+711,Assistant Media Planner,$14165.21
+712,Senior Editor,$29861.91
+713,Pharmacist,$20217.86
+714,Product Engineer,$42613.65
+715,Project Manager,$48246.87
+716,VP Accounting,$29303.03
+717,Account Coordinator,$16265.10
+718,Quality Control Specialist,$26564.83
+719,Editor,$26087.58
+720,Design Engineer,$8150.10
+721,Administrative Officer,$10607.79
+722,Budget/Accounting Analyst I,$28167.83
+723,Civil Engineer,$6641.94
+724,Assistant Manager,$8751.99
+725,Environmental Tech,$27268.63
+726,Clinical Specialist,$22502.20
+727,GIS Technical Architect,$13435.43
+728,Senior Developer,$27999.93
+729,Paralegal,$15669.15
+730,Cost Accountant,$13574.94
+731,Registered Nurse,$42019.99
+732,Analyst Programmer,$13439.26
+733,Structural Engineer,$29692.10
+734,Account Executive,$32288.99
+735,Quality Control Specialist,$31767.40
+736,General Manager,$10878.28
+737,Software Engineer I,$6189.65
+738,Professor,$23359.62
+739,VP Accounting,$48416.19
+740,Payment Adjustment Coordinator,$13354.45
+741,Accounting Assistant III,$42726.91
+742,Structural Analysis Engineer,$13769.18
+743,Financial Advisor,$35116.82
+744,Marketing Assistant,$8056.49
+745,Analyst Programmer,$45661.91
+746,Cost Accountant,$38129.63
+747,Internal Auditor,$27715.63
+748,Recruiter,$42882.45
+749,Human Resources Assistant II,$22954.57
+750,Data Coordinator,$28675.70
+751,Account Executive,$22626.19
+752,Human Resources Manager,$26421.45
+753,Quality Engineer,$10917.08
+754,Help Desk Operator,$23031.15
+755,Biostatistician I,$7123.37
+756,VP Accounting,$39281.61
+757,Software Engineer IV,$3053.40
+758,Assistant Media Planner,$43609.74
+759,Occupational Therapist,$9845.98
+760,Programmer Analyst III,$9591.46
+761,Marketing Assistant,$7912.99
+762,Actuary,$12828.17
+763,Actuary,$27687.38
+764,Graphic Designer,$46162.68
+765,Financial Advisor,$47988.42
+766,Associate Professor,$31841.40
+767,Geologist I,$27391.53
+768,VP Product Management,$36146.21
+769,Design Engineer,$49351.03
+770,Assistant Professor,$1503.48
+771,Mechanical Systems Engineer,$13102.82
+772,Food Chemist,$17033.54
+773,Professor,$19171.24
+774,Software Engineer III,$2384.32
+775,General Manager,$18191.97
+776,Research Associate,$4267.11
+777,Computer Systems Analyst IV,$30209.72
+778,Computer Systems Analyst II,$45554.79
+779,Environmental Tech,$2272.25
+780,Financial Advisor,$38691.24
+781,Electrical Engineer,$30627.85
+782,Web Designer II,$40064.12
+783,Mechanical Systems Engineer,$37254.30
+784,Web Developer III,$27580.39
+785,Financial Advisor,$7586.49
+786,Environmental Tech,$31165.22
+787,Analyst Programmer,$6417.58
+788,Senior Financial Analyst,$3777.99
+789,Chief Design Engineer,$44813.84
+790,Registered Nurse,$29570.83
+791,Structural Analysis Engineer,$31366.37
+792,Web Designer III,$13641.31
+793,Business Systems Development Analyst,$42645.07
+794,Assistant Media Planner,$7674.24
+795,Chief Design Engineer,$41484.82
+796,Cost Accountant,$36063.74
+797,Quality Control Specialist,$15397.47
+798,Financial Analyst,$30050.66
+799,Registered Nurse,$43752.31
+800,Civil Engineer,$19679.73
+801,Electrical Engineer,$12739.79
+802,Geological Engineer,$5944.35
+803,Data Coordinator,$39048.07
+804,Computer Systems Analyst II,$7438.41
+805,Civil Engineer,$29069.28
+806,Research Assistant IV,$40845.88
+807,Director of Sales,$26438.57
+808,Programmer I,$37378.27
+809,Research Assistant III,$42408.47
+810,Sales Associate,$49505.45
+811,Quality Control Specialist,$13189.15
+812,Help Desk Operator,$30775.34
+813,Programmer Analyst I,$4670.47
+814,Structural Engineer,$28886.71
+815,Research Nurse,$16532.58
+816,Nuclear Power Engineer,$33588.00
+817,Mechanical Systems Engineer,$14822.03
+818,Junior Executive,$28708.19
+819,Graphic Designer,$21643.06
+820,Quality Engineer,$4814.31
+821,Nurse,$47900.27
+822,Project Manager,$1011.71
+823,Account Executive,$48957.06
+824,Occupational Therapist,$19041.87
+825,Product Engineer,$32028.68
+826,VP Product Management,$1882.90
+827,Nuclear Power Engineer,$15583.56
+828,VP Quality Control,$22955.55
+829,Social Worker,$9049.03
+830,Accountant IV,$20852.07
+831,Accountant III,$36913.44
+832,Physical Therapy Assistant,$39639.97
+833,Information Systems Manager,$31201.81
+834,VP Product Management,$26650.90
+835,VP Accounting,$42343.67
+836,Senior Editor,$19056.14
+837,Accountant IV,$41482.58
+838,Operator,$37280.61
+839,Computer Systems Analyst IV,$12403.59
+840,Computer Systems Analyst I,$43850.33
+841,Programmer IV,$34629.69
+842,Chemical Engineer,$11237.69
+843,Senior Financial Analyst,$38653.91
+844,Web Designer IV,$49967.48
+845,Media Manager III,$14157.26
+846,Automation Specialist II,$15276.08
+847,Automation Specialist II,$18582.22
+848,Senior Editor,$10339.08
+849,Clinical Specialist,$40415.48
+850,General Manager,$12375.73
+851,Research Associate,$36620.44
+852,Senior Quality Engineer,$42933.28
+853,Dental Hygienist,$11986.55
+854,Occupational Therapist,$6944.15
+855,Help Desk Operator,$24023.68
+856,Help Desk Technician,$32625.84
+857,Tax Accountant,$4812.17
+858,Structural Engineer,$34219.22
+859,Budget/Accounting Analyst IV,$21181.84
+860,Geologist II,$39402.43
+861,Software Engineer I,$23395.66
+862,Statistician II,$46759.50
+863,Project Manager,$30279.45
+864,Media Manager III,$49112.40
+865,Social Worker,$1027.15
+866,Nurse,$7862.84
+867,Quality Engineer,$9775.75
+868,Geological Engineer,$18747.45
+869,Human Resources Manager,$4569.36
+870,Software Consultant,$10040.75
+871,Programmer Analyst I,$24597.56
+872,Biostatistician III,$39575.40
+873,Budget/Accounting Analyst II,$2916.86
+874,Nuclear Power Engineer,$31618.52
+875,Statistician II,$34557.30
+876,Accountant IV,$21363.50
+877,Recruiter,$39427.26
+878,Staff Accountant I,$34131.54
+879,Director of Sales,$6634.63
+880,Tax Accountant,$17394.48
+881,Junior Executive,$37233.23
+882,Sales Representative,$24877.23
+883,Desktop Support Technician,$5790.62
+884,Quality Control Specialist,$18623.21
+885,Payment Adjustment Coordinator,$32544.48
+886,Sales Representative,$46245.57
+887,Safety Technician II,$11348.36
+888,Web Designer II,$6759.91
+889,Analog Circuit Design manager,$25444.49
+890,Chemical Engineer,$28830.85
+891,Account Executive,$16290.69
+892,Safety Technician III,$11606.64
+893,Editor,$17955.80
+894,Director of Sales,$47559.82
+895,Staff Scientist,$10734.35
+896,Accountant IV,$34427.72
+897,Technical Writer,$34791.26
+898,VP Quality Control,$19850.21
+899,Web Developer I,$39557.24
+900,Assistant Media Planner,$13663.25
+901,Assistant Media Planner,$12617.32
+902,Internal Auditor,$26231.94
+903,Human Resources Manager,$21778.88
+904,Recruiting Manager,$25039.80
+905,Software Engineer IV,$24852.97
+906,Senior Financial Analyst,$30567.47
+907,Software Consultant,$44230.29
+908,Research Nurse,$17807.91
+909,Desktop Support Technician,$12474.67
+910,Assistant Professor,$48124.25
+911,Business Systems Development Analyst,$17557.94
+912,Developer I,$34817.05
+913,Staff Scientist,$7667.61
+914,Media Manager I,$21160.30
+915,Compensation Analyst,$5403.21
+916,Quality Engineer,$35009.33
+917,Actuary,$47735.00
+918,Mechanical Systems Engineer,$12992.75
+919,Product Engineer,$26050.12
+920,Sales Representative,$8095.57
+921,VP Quality Control,$42425.62
+922,Analog Circuit Design manager,$45478.27
+923,Junior Executive,$18091.25
+924,Paralegal,$44206.67
+925,Executive Secretary,$15677.30
+926,Research Assistant III,$32742.85
+927,Social Worker,$1288.25
+928,Biostatistician IV,$26533.66
+929,Operator,$24783.76
+930,Senior Sales Associate,$15428.79
+931,Staff Scientist,$22171.84
+932,Assistant Manager,$10469.16
+933,VP Sales,$44622.37
+934,Internal Auditor,$4885.72
+935,Occupational Therapist,$2396.24
+936,Senior Cost Accountant,$45882.05
+937,Sales Representative,$19865.72
+938,Environmental Specialist,$4185.85
+939,Design Engineer,$12621.71
+940,Junior Executive,$9482.22
+941,Financial Analyst,$17125.53
+942,Mechanical Systems Engineer,$27016.96
+943,Sales Representative,$45978.64
+944,Administrative Officer,$8919.26
+945,Analyst Programmer,$43708.90
+946,Human Resources Manager,$35984.35
+947,Sales Associate,$38217.85
+948,Senior Financial Analyst,$7438.54
+949,Programmer Analyst II,$32654.86
+950,Administrative Officer,$32363.16
+951,Nurse,$16268.88
+952,Account Coordinator,$1007.75
+953,Account Executive,$13606.35
+954,Electrical Engineer,$12957.12
+955,Pharmacist,$37488.48
+956,Chief Design Engineer,$3931.90
+957,Budget/Accounting Analyst II,$36143.33
+958,Cost Accountant,$26821.96
+959,Occupational Therapist,$15833.32
+960,Administrative Assistant I,$13721.38
+961,Quality Control Specialist,$41444.67
+962,Senior Quality Engineer,$23808.31
+963,Help Desk Operator,$22387.73
+964,Assistant Manager,$12729.29
+965,Pharmacist,$25245.42
+966,Help Desk Operator,$21465.30
+967,Geological Engineer,$38866.02
+968,Environmental Specialist,$44777.94
+969,Teacher,$38520.29
+970,Food Chemist,$22582.48
+971,Human Resources Assistant II,$14533.36
+972,Environmental Tech,$34669.64
+973,Mechanical Systems Engineer,$12115.75
+974,Professor,$20569.50
+975,Account Representative I,$31226.01
+976,Legal Assistant,$3381.83
+977,Developer II,$39618.68
+978,Director of Sales,$43298.56
+979,Financial Advisor,$41405.41
+980,Systems Administrator I,$1042.04
+981,Professor,$1005.35
+982,Software Consultant,$39552.65
+983,Assistant Media Planner,$40618.56
+984,Safety Technician III,$37181.31
+985,Technical Writer,$20192.62
+986,Account Representative II,$20609.36
+987,Financial Analyst,$8570.59
+988,Registered Nurse,$28338.50
+989,Executive Secretary,$33854.23
+990,Chemical Engineer,$13579.00
+991,Engineer IV,$42142.84
+992,Administrative Officer,$31032.61
+993,Structural Engineer,$26355.57
+994,Payment Adjustment Coordinator,$11189.37
+995,VP Sales,$32669.11
+996,Compensation Analyst,$11344.21
+997,Web Developer III,$36027.98
+998,Associate Professor,$5462.10
+999,Web Designer I,$45286.66
+1000,Desktop Support Technician,$14666.31
