@@ -78,7 +78,7 @@ public class Server
                 Console.WriteLine($"Fajl pripremljen za {sw.ElapsedMilliseconds}ms");
             }
             else
-            {
+            {  
                 Console.WriteLine($"Fajl povucen iz kesa za {sw.Elapsed.TotalNanoseconds}ns");
             }
             context.Response.ContentLength64 = ms.ToArray().Length;
