@@ -193,7 +193,7 @@ public class Server
         }
         return value;
     }
-
+    //cache async?
     private MemoryStream? GetMemoryStream(string name)
     {
         lock (cacheLock)

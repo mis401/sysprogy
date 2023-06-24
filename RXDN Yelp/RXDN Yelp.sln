@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RXDN Yelp", "RXDN Yelp\RXDN Yelp.csproj", "{5DD6DA5C-31B7-47F9-9C3D-504FFDF024D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD6DA5C-31B7-47F9-9C3D-504FFDF024D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD6DA5C-31B7-47F9-9C3D-504FFDF024D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD6DA5C-31B7-47F9-9C3D-504FFDF024D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD6DA5C-31B7-47F9-9C3D-504FFDF024D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D5F257-9EB3-4CB0-885F-3D2DEC7CD5B9}
+	EndGlobalSection
+EndGlobal
