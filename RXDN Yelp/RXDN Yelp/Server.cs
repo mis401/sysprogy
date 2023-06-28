@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Reactive.Concurrency;
+using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,12 +59,13 @@ namespace RXDN_Yelp
                                         new Restaurant(restaurant.ID, restaurant.Name, restaurant.ReviewCount), 
                                         review.Text, 
                                         review.Rating);
+                                    Console.WriteLine($"Emitovano sa threada {Thread.CurrentThread.ManagedThreadId}");
                                     reviewStream.OnNext(reviewObj);
                                 }
                             }
                             catch (Exception e)
                             {
-                                Console.WriteLine("Review " + e.Message);
+                                Console.WriteLine(e.Message);
                                 reviewStream.OnError(e);
                             }
                         });
@@ -79,7 +82,11 @@ namespace RXDN_Yelp
 
         public IDisposable Subscribe(IObserver<Review> observer)
         {
-            return reviewStream.Subscribe(observer); 
+            return reviewStream
+                //.SubscribeOn(ThreadPoolScheduler.Instance)
+                .ObserveOn(ThreadPoolScheduler.Instance) //svaki observer subscribeuje na zasebnom threadu
+                .Subscribe(observer);
         }
+
     }
 }
